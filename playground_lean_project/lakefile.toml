@@ -1,0 +1,10 @@
+name = "playground_lean"
+version = "0.1.0"
+defaultTargets = ["playground_lean"]
+
+[[lean_lib]]
+name = "PlaygroundLean"
+
+[[lean_exe]]
+name = "playground_lean"
+root = "Main"
